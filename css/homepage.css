@@ -1,0 +1,8 @@
+html{
+    /* This image will be displayed fullscreen */
+    background:url("../img/Piano-Keys.jpg") no-repeat center center;
+    /* Fills height */
+    min-height:100%;
+    /* Covers entire screen */
+    background-size:cover;
+}

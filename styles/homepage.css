@@ -1,8 +1,0 @@
-html{
-    /* This image will be displayed fullscreen */
-    background:url("../img/bgimage.jpg") no-repeat center center;
-    /* Fills the height properly */
-    min-height:100%;
-    /* Cover Entire Window */
-    background-size:cover;
-}

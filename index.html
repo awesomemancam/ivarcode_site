@@ -40,7 +40,7 @@ Author: Camden I. Wagner
 
 					<div class="nav-collapse collapse navbar-responsive-collapse">
 						<ul class="nav navbar-nav">
-							<li>  <!-- <li class="active"> -->
+							<li class="active">
 								<a href="#">Home</a>
 							</li>
 							<li class="dropdown">
@@ -75,6 +75,39 @@ Author: Camden I. Wagner
 
 			<div class="carousel slide" id="slideshow">
 				
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#slideshow"></li>
+					<li data-slide-to="1" data-target="#slideshow"></li>
+					<li data-slide-to="2" data-target="#slideshow"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->	
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Computer Science</h4>
+							<p>Software development is one of interests and one of my strongest skills.  I code everything from websites to videogames and enjoy working with other people to create new and exciting projects.</p>
+						</div>
+					</div>
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Chess</h4>
+							<p>I have been playing chess since a very young age and have always thoroughly enjoyed it.  I currently manage multiple chess clubs for children and kids my own age, as well as compete in national tournaments whenever I have the time.</p>
+						</div>
+					</div>
+					<div class="item" id="slide3">
+						<div class="carousel-caption">
+							<h4>Outdoors</h4>
+							<p>I greatly value the time I spend outdoors as well.  I play soccer, I run distance road races, and enjoy camping or hiking mountains.</p>
+						</div>
+					</div>
+				</div><!-- end carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" data-slide="prev" href="#slideshow"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#slideshow"><span class="icon-next"></span></a>
+			
 			</div><!-- end slideshow -->
 
 

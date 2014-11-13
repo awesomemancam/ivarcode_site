@@ -29,6 +29,29 @@ Author: Camden I. Wagner
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+#slideshow {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 18px;
+}
+
+.carousel-caption h4 {
+   font-size: 24px;
+}
+
+#slideshow .item { height: 400px; }
+
+#slide1 {
+   background: url('../../img/carousel_medium_01.jpg') top center no-repeat;
+}
+#slide2 {
+   background: url('../../img/carousel_medium_02.jpg') top center no-repeat;
+}
+#slide3 {
+   background: url('../../img/carousel_medium_03.jpg') top center no-repeat;
+}
 
 
 
@@ -50,9 +73,33 @@ Author: Camden I. Wagner
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 	
+   #slideshow .item { height: 310px; }
+
+   #slide1 {
+      background: url('../../img/carousel_small_01.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/carousel_small_02.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/carousel_small_03.jpg') top center no-repeat;
+   }
+
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
 	
+   #slideshow .item { height: 500px; }
+
+   #slide1 {
+      background: url('../../img/carousel_large_01.jpg') top center no-repeat;
+   }
+   #slide2 {
+      background: url('../../img/carousel_large_02.jpg') top center no-repeat;
+   }
+   #slide3 {
+      background: url('../../img/carousel_large_03.jpg') top center no-repeat;
+   }
+
 }

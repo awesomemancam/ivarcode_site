@@ -20,6 +20,10 @@ Author: Camden I. Wagner
 #searchInput {
    width: 200px;
 }
+
+.navbar-brand {
+   padding: 13px 15px;
+}
    
    
 /* --------------------------------------

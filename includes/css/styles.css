@@ -5,7 +5,14 @@ Author: Camden I. Wagner
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+.background { 
+   background-image: url("../../img/bg_image.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+}
 
 
 /* --------------------------------------
@@ -27,7 +34,7 @@ Author: Camden I. Wagner
    
    
 /* --------------------------------------
-   Carousel
+   Slideshow
    -------------------------------------- */
 #slideshow {
    margin-top: 60px;
@@ -53,6 +60,25 @@ Author: Camden I. Wagner
    background: url('../../img/carousel_medium_03.jpg') top center no-repeat;
 }
 
+/* --------------------------------------
+   Info
+   -------------------------------------- */
+.col-sm-6 h3 {
+   color: #E0E0E0;
+   font-size: 28px;
+}
+
+.tab-pane {
+   color: #E0E0E0;
+}
+
+.tab-pane h4 {
+   font-size: 22px;
+}
+
+.tab-pane p {
+   font-size: 18px;
+}
 
 
 /* --------------------------------------

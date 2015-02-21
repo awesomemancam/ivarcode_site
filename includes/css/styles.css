@@ -14,11 +14,21 @@ Author: Camden I. Wagner
    height: 100%;
 }
 
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
-
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
 
 
 /* --------------------------------------

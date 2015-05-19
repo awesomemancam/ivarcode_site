@@ -1,0 +1,79 @@
+<!--
+Author: Camden I. Wagner
+File: header.html
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<div class="background">
+		<!-- Layout -->
+		<div class="container" id="main">
+
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="img/logo.png" alt="Your Logo"></a>
+
+					<div class="nav-collapse collapse navbar-responsive-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="#">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <strong class="caret"></strong></a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-header">Solo Projects</li>
+									<li>
+										<a href="#">ivarcode.net</a>
+									</li>
+									<li>
+										<a href="#">Miners Deluxe Mod</a>
+									</li>
+									<li class="divider"></li>
+									<li class="dropdown-header">Collaborative Projects</li>
+									<li>
+										<a href="#">Music Multiplayer App</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Chess</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+						</ul><!-- end nav -->
+
+						<form class="navbar-form pull-right">
+							<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+						</form><!-- end navbar-form pull-right -->
+
+					</div><!-- end nav-collapse -->
+
+				</div><!-- end container -->
+			</div><!-- end navbar -->
+		</div><!-- main -->	
+	</body>
+</html>
